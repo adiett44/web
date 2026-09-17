@@ -1,4 +1,4 @@
 # web
-drvload C:\Windows\INF\iastorav.inf
-diskpart
-list disk
+dir C:\Windows\System32\drvload.exe
+
+C:\Windows\System32\drvload.exe C:\Windows\INF\iastorav.inf
