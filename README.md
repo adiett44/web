@@ -1,4 +1,2 @@
-pnputil /enum-drivers | findstr /i iastor
-
-
-dism /online /get-drivers /format:table
+pnputil /add-driver C:\Windows\INF\oem29.inf /install
+pnputil /scan-devices
