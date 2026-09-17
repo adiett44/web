@@ -1,1 +1,1 @@
-pnputil /add-driver C:\Windows\INF\oem29.inf /install
+Get-PnpDevice -Class DiskDrive, SCSIAdapter | Format-Table FriendlyName, InstanceId, Status, Problem
