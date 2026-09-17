@@ -1,7 +1,2 @@
-Get-PnpDevice | Where-Object {$_.InstanceId -like "*DEV_0975*REV_03*"} | Disable-PnpDevice -Confirm:$false
-
-
-
-
-Get-PnpDevice | Where-Object {$_.InstanceId -like "*DEV_0975*REV_03*"} | Enable-PnpDevice -Confirm:$false
+pnputil /restart-device "PCI\VEN_8086&DEV_0975&SUBSYS_84108086&REV_03\4&9D3EF0C&0&00E8"
 
