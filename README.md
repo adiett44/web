@@ -1,3 +1,2 @@
 # web
-web using for learning learning 
-reg query "HKLM\HARDWARE\DESCRIPTION\System\BIOS"
+dir C:\Windows\INF\iaStor*.inf /b
