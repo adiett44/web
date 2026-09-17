@@ -1,4 +1,7 @@
-# web
-dir C:\Windows\System32\drvload.exe
+pnputil /add-driver C:\Windows\INF\iastorav.inf /install
 
-C:\Windows\System32\drvload.exe C:\Windows\INF\iastorav.inf
+
+pnputil /scan-devices
+
+diskpart
+list disk
