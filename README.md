@@ -1,7 +1,4 @@
-pnputil /add-driver C:\Windows\INF\iastorav.inf /install
+pnputil /enum-drivers | findstr /i iastor
 
 
-pnputil /scan-devices
-
-diskpart
-list disk
+dism /online /get-drivers /format:table
