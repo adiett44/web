@@ -1,1 +1,6 @@
 echo "blacklist alcor_sdmmc" | sudo tee -a /etc/modprobe.d/blacklist.conf
+
+
+echo "blacklist alcor_sdmmc" | sudo tee -a /etc/modprobe.d/blacklist.conf
+sudo update-initramfs -u
+
